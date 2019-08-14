@@ -11,14 +11,13 @@ Build a Docker image:
 docker build . --tag arontier/atom-map
 ```
 
-You just need this once. The next step however needs to be done whenever
-you wish to run `chem_server2`.
+You just need to do this once. 
+
+The next step however needs to be done whenever to run `chem_server2`.
 
 ```bash
 docker run --rm -it arontier/atom-map
 ```
-
-This will run `chem_server2`. 
 
 For more information, please refer to [Docker documentation](https://docs.docker.com/).
 
